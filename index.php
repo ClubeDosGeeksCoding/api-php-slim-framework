@@ -31,6 +31,6 @@ $app->put('/pessoas/:id', function($id) use ($app){
 $app->delete('/pessoas/:id', function($id) use ($app){
 	(new \controllers\Pessoa($app))->excluir($id);
 });
+
 //Rodando aplicação
 $app->run();
-?>

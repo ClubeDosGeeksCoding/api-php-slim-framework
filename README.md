@@ -1,10 +1,16 @@
 # api-php-slim-framework
-API RESTful com PHP Slim Framework
+API RESTful com PHP Slim Framework - adaptado para Slim v3.*
 
-## Instalando
+## Instalando - para Slim v3.*
+```shell
+git clone https://github.com/andre-msantos/api-php-slim-framework.git
+```
+
+## Instalando - para Slim v2.*
 ```shell
 git clone https://github.com/ClubeDosGeeksCoding/api-php-slim-framework.git
 ```
+
 Instale as dependencias com composer
 ```shell
 composer install
